@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(2, 62, 108);
+  color: white;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+#player {
+  display: flex;
+  justify-content: center;
+  gap:11rem;
+  margin-top: 2rem;
+}
+h1 {
+  font-size: 40px;
+}
+.size {
+  width: 250px;
+  height: auto;
+  border-radius: 10%;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  width: auto;
+  height: 3rem;
+  background: #f1ebeb;
+  color: red;
+  font-size: 30px;
+  border: solid 4px red;
+  margin-top: 4rem;
+}
+
+#player p{
+ 
+  font-size: 2rem;
+}
+
+#winner{
+  font-size: 2rem;
+}
